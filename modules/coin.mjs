@@ -43,9 +43,9 @@ export function coinFlip() {
  */
 
 export function coinFlips(flips) {
-  let flipsA = [];
+  const flipsA = [];
   for (var i = 0; i < flips; i++) {
-    flipsA[i] = coinFlip();
+    flipsA.push(coinFlip());
   }
   return flipsA;
 }
