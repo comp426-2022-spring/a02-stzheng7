@@ -14,7 +14,7 @@
  * 
  */
 
-function coinFlip() {
+export function coinFlip() {
   if(Math.random > .5) {
     return "heads";
   }
@@ -42,7 +42,7 @@ function coinFlip() {
     ]
  */
 
-function coinFlips(flips) {
+export function coinFlips(flips) {
   let flipsA = [];
   for (var i = 0; i < flips; i++) {
     flipsA[i] = coinFlip();
@@ -63,7 +63,7 @@ function coinFlips(flips) {
  * @returns {{ heads: number, tails: number }}
  */
 
-function countFlips(array) {
+export function countFlips(array) {
   const countA = {heads: 0, tails: 0};
   for (var i = 0; i < array.length; i++) {
     if (array[i] == "heads") {
@@ -87,7 +87,7 @@ function countFlips(array) {
  * returns: { call: 'tails', flip: 'heads', result: 'lose' }
  */
 
-function flipACoin(call) {
+export function flipACoin(call) {
   const FlipA = {call: call, flip: "", result: ""}
   FlipA.result = coinFlip();
   if (coinFlip() == call) {
