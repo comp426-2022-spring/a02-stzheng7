@@ -15,7 +15,7 @@
  */
 
 export function coinFlip() {
-  if(Math.random > .5) {
+  if(Math.random() > .5) {
     return "heads";
   }
   else{
