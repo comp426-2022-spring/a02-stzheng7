@@ -1,0 +1,23 @@
+{
+  "name": "a02-stzheng7",
+  "version": "1.0.0",
+  "description": "coinflip",
+  "main": "flip.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "flip": "node flip.js",
+    "flips": "node flips.js",
+    "guess-flip": "node guess-flip.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://stzheng7: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@github.com/comp426-2022-spring/a02-stzheng7.git"
+  },
+  "author": "Stephen Zheng",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-spring/a02-stzheng7/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-spring/a02-stzheng7#readme"
+}
