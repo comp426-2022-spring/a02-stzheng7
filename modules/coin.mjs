@@ -89,8 +89,8 @@ export function countFlips(array) {
 
 export function flipACoin(call) {
   const FlipA = {call: call, flip: "", result: ""}
-  FlipA.result = coinFlip();
-  if (coinFlip() == call) {
+  FlipA.flip = coinFlip();
+  if (FlipA.flip == call) {
     FlipA.result = "win";
   }
   else {
